@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
       home: const MyHomePage(title: 'African Favorites'),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
@@ -42,7 +43,6 @@ class _MyHomePageState extends State<MyHomePage> {
       body: SafeArea(
         // TODO: Replace child: Container()
         child: Container(),
-        
       ),
     );
   }
